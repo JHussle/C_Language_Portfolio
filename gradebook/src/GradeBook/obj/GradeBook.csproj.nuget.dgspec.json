@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Joey/gradebook/src/GradeBook/GradeBook.csproj": {}
+    "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/src/GradeBook/GradeBook.csproj": {}
   },
   "projects": {
-    "/Users/Joey/gradebook/src/GradeBook/GradeBook.csproj": {
+    "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/src/GradeBook/GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Joey/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectUniqueName": "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/src/GradeBook/GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "/Users/Joey/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectPath": "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/src/GradeBook/GradeBook.csproj",
         "packagesPath": "/Users/Joey/.nuget/packages/",
-        "outputPath": "/Users/Joey/gradebook/src/GradeBook/obj/",
+        "outputPath": "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/src/GradeBook/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Joey/.nuget/NuGet/NuGet.Config"
