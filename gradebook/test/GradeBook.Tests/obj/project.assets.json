@@ -1651,6 +1651,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "GradeBook/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/GradeBook.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GradeBook.dll": {}
+        }
       }
     }
   },
@@ -5612,13 +5622,19 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "GradeBook/1.0.0": {
+      "type": "project",
+      "path": "../../src/GradeBook/GradeBook.csproj",
+      "msbuildProject": "../../src/GradeBook/GradeBook.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "GradeBook >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "coverlet.collector >= 1.2.0",
-      "xunit >= *",
+      "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
   },
@@ -5628,11 +5644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Joey/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+      "projectUniqueName": "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "/Users/Joey/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
+      "projectPath": "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj",
       "packagesPath": "/Users/Joey/.nuget/packages/",
-      "outputPath": "/Users/Joey/gradebook/test/GradeBook.Tests/obj/",
+      "outputPath": "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/test/GradeBook.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Joey/.nuget/NuGet/NuGet.Config"
@@ -5645,7 +5661,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/src/GradeBook/GradeBook.csproj": {
+              "projectPath": "/Users/Joey/Documents/GitHub/C_Language_Portfolio/gradebook/src/GradeBook/GradeBook.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5667,7 +5687,7 @@
           },
           "xunit": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[2.4.1, )"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",

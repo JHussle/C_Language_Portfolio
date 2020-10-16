@@ -20,6 +20,7 @@ namespace GradeBook
             result.Average = 0.0;
             result.High = double.MinValue;
             result.Low = double.MaxValue;
+
             foreach (var grade in grades)
             {
                 result.High = Math.Max(grade, result.High);
@@ -27,10 +28,11 @@ namespace GradeBook
                 result.Average += grade;
             }
             result.Average /= grades.Count;
-            
+
+            return result;
         }
         private List<double> grades;
-        private string name;
+        public string name;
 
     }
 } 
