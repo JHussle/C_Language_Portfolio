@@ -64,7 +64,7 @@ namespace GradeBook
     {
         public InMemoryBook(string name) : base(name)
         {
-            grades = new List<double>();
+            // grades = new List<double>();
             this.Name = name;
         }
 
